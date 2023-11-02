@@ -1,0 +1,5 @@
+EventConsumer/obj/
+EventConsumer/bin/
+EventSender/bin/Debug/
+EventSender/obj/Debug/
+EventSender/obj/
