@@ -1,5 +1,5 @@
 
-<img src="https://github.com/jil1710/readmedemo/assets/125335932/76e579f2-1a7a-481e-9e0a-9530ba68543d" width="150" height="150"/>
+<img src="/images/271565527-76e579f2-1a7a-481e-9e0a-9530ba68543d.png" width="150" height="150"/>
 
 
 # Azure Event Hub
@@ -13,7 +13,7 @@
 
 # Event Hubs Architecture
 
-  ![image](https://github.com/jil1710/readmedemo/assets/125335932/b7356d1b-bd4c-4d5c-9b29-8a44fc50241f)
+  ![image](/images/271559048-b7356d1b-bd4c-4d5c-9b29-8a44fc50241f.png)
 
 - **Event producers :** Any object that sends an event to an event hub.
 - **Partitions :** we can only read a particular subset, or segment, of the message stream.
@@ -49,14 +49,14 @@
 
     `EventHubProducerClient` help us to connect .net application with azure event hub in order to post the event. After that we can create batch event and post the event.
 
-    ![image](https://github.com/jil1710/readmedemo/assets/125335932/0d44bd12-da0b-4c11-bbb2-a9f36334b3f0)
+    ![image](/images/271563329-0d44bd12-da0b-4c11-bbb2-a9f36334b3f0.png)
 
 
 - **Let's Create Consumer that consume the events from event hub :**
 
   `EventHubConsumerClient` help us to consume the event using .net application from azure event hub. After that we process the event according to our needs.
 
-  ![image](https://github.com/jil1710/readmedemo/assets/125335932/3c3ff554-e77d-4b52-8542-055d0f3af703)
+  ![image](/images/271564417-3c3ff554-e77d-4b52-8542-055d0f3af703.png)
 
 - This is the simple demo console application how to use Event hub using C# and produce and consume the event. In order to use the above example using ASP.Net Core DI Injection we can register using below snippet :
 
